@@ -1,0 +1,10 @@
+<h1>Specifc pet</h1>
+
+<ul>
+  <li><%= @pet.name %></li>
+  <li><%= @pet.species %></li>
+  <li><%= @pet.address %></li>
+  <li><%= @pet.found_on %></li>
+</ul>
+
+<%= link_to "delete", pet_path(@pet), method: :delete %>
